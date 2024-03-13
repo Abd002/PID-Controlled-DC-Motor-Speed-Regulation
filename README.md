@@ -30,9 +30,6 @@ To get started:
 4. Count the pulses within a specified time, divide by 360, then multiply by 60 to get RPM.
 
 ## Instructions
-
-- Use the provided simulation file without changing any pins or motor configurations.
-- Submit a single `.c` file containing all code with no external local includes.
 - Start by setting KP to 1 and KI, KD to zero.
 - Gradually increase KP, KI, KD to fine-tune control action.
 - Recommended values for KP, KI, KD: 1.5, 1, 0.5.
